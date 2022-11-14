@@ -20,7 +20,6 @@ def partition(array, low, high):
 
     return i + 1
 
-
 def quick_sort(array, low, high):
     if low < high:
         pi = partition(array, low, high)
